@@ -1,9 +1,0 @@
-    <nav class="nav">
-      <ul class="nav__list container">
-        <?php foreach ($categories as $item):?>
-          <li class="nav__item">
-              <a href="pages/all_lots.html"><?=htmlspecialchars($item['name'])?></a>
-          </li>
-          <?php endforeach; ?>
-      </ul>
-    </nav>
